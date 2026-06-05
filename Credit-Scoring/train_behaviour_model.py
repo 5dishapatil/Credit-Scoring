@@ -10,6 +10,7 @@ from sklearn.metrics import roc_curve
 from sklearn.calibration import calibration_curve
 
 
+
 df = pd.read_csv("behaviour_training_dataset.csv")
 
 X = df.drop(columns=["default","company"])

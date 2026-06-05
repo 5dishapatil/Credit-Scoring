@@ -11,7 +11,6 @@ from django.contrib.auth.decorators import login_required
 from .models import RawTransaction, CompanyCreditProfile
 from .forms import FinancialUploadForm
 
-
 # authentication views
 def login_view(request):
     if request.user.is_authenticated:

@@ -11,6 +11,7 @@ def generate_company(filename, is_risky=False):
     balance = 100000 if not is_risky else 60000
     data = []
     
+    
     data.append(["2022-01-01", "Opening Balance", balance, balance])
     
     for i, date in enumerate(dates[1:]):

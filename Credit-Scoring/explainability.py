@@ -3,6 +3,7 @@ import requests
 def generate_explanation(features_row):
     # rule-based explanations
     base_reasons = []
+    
 
     if features_row.get("balance_cv", 0) > 1.0:
         base_reasons.append("Highly volatile cash balance")

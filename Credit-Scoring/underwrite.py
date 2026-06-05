@@ -3,7 +3,7 @@ import pandas as pd
 import os
 from behaviour_engine import behavioural_features, load_transactions
 from explainability import generate_explanation
-import numpy as np
+import numpy as np  
 
 
 # set absolute paths

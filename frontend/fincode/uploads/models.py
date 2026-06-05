@@ -1,6 +1,7 @@
 from django.db import models
 from django.db.models import JSONField
 
+
 # 1. The KYC Model (This saves the form data)
 class FinancialUpload(models.Model):
     business_name = models.CharField(max_length=200)

@@ -1,6 +1,7 @@
 from django.urls import path
 from . import views
 
+
 urlpatterns = [
     path('', views.login_view, name='login'), # The home route is now the login page
     path('logout/', views.logout_view, name='logout'),

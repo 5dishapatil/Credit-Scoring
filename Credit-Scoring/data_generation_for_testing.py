@@ -9,7 +9,7 @@ import numpy as np
 from datetime import timedelta
 
 
-print(" Generating Multi-Tenant MSME Database...")
+print(" Generating Multi-Tenant MSME Database.....")
 
 
 # assume 1M PaySim dataset already loaded

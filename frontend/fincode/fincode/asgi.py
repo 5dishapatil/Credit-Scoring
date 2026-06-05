@@ -1,5 +1,5 @@
 """
-ASGI config for fincode project.
+ASGI config for fincode project. 
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 

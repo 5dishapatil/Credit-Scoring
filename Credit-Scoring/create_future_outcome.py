@@ -7,6 +7,7 @@ OBSERVATION_RATIO = 0.7   # portion used as past data
 MIN_HISTORY = 90          # minimum required history in days
 
 
+
 # check if company defaulted after observation period
 def future_default(transactions):
 

@@ -3,6 +3,7 @@ import numpy as np
 from datetime import datetime, timedelta
 import random
 
+
 def generate_bank_statement(filename, start_balance, profile_type):
     # generate 24 months of transactions
     start_date = datetime(2024, 1, 1)
