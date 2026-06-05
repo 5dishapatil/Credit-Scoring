@@ -1,1 +1,46 @@
+# python and django files
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+local_settings.py
 
+# database files
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3
+
+# machine learning models
+# we are not ignoring .pkl files because the app needs them
+
+# virtual environments and secret files
+.env
+.venv/
+venv/
+env/
+ENV/
+fincode/
+.conda/
+
+# user uploads and data files
+# do not commit raw financial data or uploaded files
+*.csv
+*.xlsx
+media/
+data/
+dataset/
+
+# generated images and outputs
+*.png
+outputs/
+
+# system and IDE files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
